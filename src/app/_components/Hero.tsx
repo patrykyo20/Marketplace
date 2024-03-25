@@ -3,8 +3,8 @@ import React from 'react'
 function Hero() {
   return (
     <section className="bg-gray-50">
-      <div className="mx-auto max-w-screen-xl px-4 py-24 lg:flex lg:h-screen">
-        <div className="mx-auto max-w-xl text-center">
+      <div className="mx-auto max-w-screen-xl px-4 py-24 lg:flex lg:h-screen grid">
+        <div className="mx-auto max-w-xl text-center self-center">
           <h1 className="text-3xl font-extrabold sm:text-5xl">
             Understand User Flow.
             <strong className="font-extrabold text-primary sm:block"> Increase Conversion. </strong>
