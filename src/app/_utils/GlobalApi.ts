@@ -21,6 +21,7 @@ const postProductToCart = (data: any) => axiosClient.post('/carts', data)
 const getUserCart = (email: string | undefined) => axiosClient.get(`/carts?populate[products][populate][0]=banner&filters[email][$eq]=${email}`)
 
 const deleteUserCart = (productId: number) => axiosClient.delete(`/carts/${productId}`)
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   getLatestProducts,

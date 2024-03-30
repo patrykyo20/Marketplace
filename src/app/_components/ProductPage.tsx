@@ -27,8 +27,6 @@ function ProductPage() {
   
     const iconsProducts = productList.filter(products => products.attributes.category === 'Icons');
 
-    console.log(iconsProducts)
-
     setBrandNews(brandNewsProducts);
     setSourceCode(sourceCodeProducts);
     setIcons(iconsProducts);
